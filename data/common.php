@@ -26,7 +26,7 @@ else {
 */
 if(CURRENT_MODE == MODE_PRODUCTION) {
        
-   $DOMAIN_NAME="http://www.kiwiride.com/";
+   $DOMAIN_NAME="http://dynamic.thecamp.fr:8080/";
    $GENERAL_PATH="/homepages/37/d677888557/htdocs/";
         
 } else if(CURRENT_MODE == MODE_DEV_1) {
