@@ -105,39 +105,20 @@ h5.experience-date {
           position: relative;
     width: 90px;
     height: 1080px;
-    background: linear-gradient(261deg, rgb(29, 123, 236), rgb(0, 255, 255), rgb(255, 255, 0)) 100% 100% / 300% 300%;
-    animation: CustomAnimation 6s ease 0s infinite normal none running;
-
+    background: #00FFFF;
 }
-
-  @-webkit-keyframes CustomAnimation {
-        0%{background-position:0% 54%}
-        50%{background-position:100% 47%}
-        100%{background-position:0% 54%}
-    }
-    @-moz-keyframes CustomAnimation {
-        0%{background-position:0% 54%}
-        50%{background-position:100% 47%}
-        100%{background-position:0% 54%}
-    }
-    @keyframes CustomAnimation { 
-        0%{background-position:0% 54%}
-        50%{background-position:100% 47%}
-        100%{background-position:0% 54%}
-    }
 
 
 .vertical-events {
     position: relative;
     width: 90px;
     height: 1080px;
-    background: linear-gradient(261deg,rgb(255, 255, 0) , rgb(0, 255, 255), rgb(29, 123, 236)) 100% 100% / 300% 300%;
-    animation: CustomAnimation 6s ease 0s infinite normal none running;
+    background: #FFFF00;
 }
 .header-upcoming {
-      margin-top: 75px;
-
+    margin-top: 75px;
 }
+
 .header-upcoming h4 {
     margin-top: -17px;
     border-top: 1px solid #000;
@@ -146,9 +127,8 @@ h5.experience-date {
     font-weight: bold;
     font-size: 20px;
         margin-bottom: 0;
-
-
 }
+
 p.event-date {
     font-size: 23px;
     text-align: right;
