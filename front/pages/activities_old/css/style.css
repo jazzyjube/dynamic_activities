@@ -1,0 +1,108 @@
+
+
+
+h1, h3, p {
+    font-family: 'mark' !important;
+}
+p {
+    font-size: 25px;
+    line-height: 22px;
+
+}
+
+
+h1 {
+    line-height: : 55px;
+}
+
+h1, h3 {
+    font-size: 30px;
+}
+
+h3  {
+    border-bottom: 2px solid;
+	padding-bottom: 5px;
+}
+.carousel-caption {
+ text-align: left !important;
+	text-shadow: none !important;
+}
+.carousel-caption h3 {
+	border-bottom: 0;
+	font-size: 30px;
+}
+.carousel-caption p {
+	font-size: 25px;
+  line-height: 28px;
+}
+.bold {
+	font-weight: bold;
+}
+.col-md-7 p {
+    line-height: 28px;
+}
+
+.carousel-inner{
+  width:100%;
+}
+
+.carousel-inner > .item {
+    background-size: cover;
+    background-position: center;
+    height: 1080px;
+}
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}    
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}    
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}    
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}    
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+.carousel .carousel-caption {
+  right: 0;
+  left: 0;
+  padding: 45px 125px;
+  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.9));
+  bottom: 0;
+  padding-top: 80px;
+}
+
+/*WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+  Need to override the 3.3 new styles for modern browsers & apply opacity*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+

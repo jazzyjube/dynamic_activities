@@ -1,0 +1,165 @@
+
+
+div.grid-element {
+    padding-left: 45px;
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+
+p#pageSubtitle1 {
+    line-height: normal;
+}
+
+div#list {
+    padding: 30px;
+    height: 830px;
+    overflow: hidden;
+}
+
+h1#pageTitle {
+    margin-top: -5px;
+    margin-bottom: 35px;
+}
+
+
+h1, h2, p {
+    font-family: 'mark' !important;
+}
+p {
+    font-size: 25px;
+    line-height: 22px;
+
+}
+
+
+h1 {
+    line-height: 55px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+
+.card-img {
+    height: 100%;
+    background-size: cover;
+    padding: 0;
+    position: relative;
+    background-position: center;
+}
+.practical-infos .row {
+    height: 100px;
+    text-align: center;
+    display: table-row;
+}
+
+.practical-infos .row p{
+    vertical-align: middle;
+    display: table-cell;
+    line-height: normal;
+}
+.practical-infos {
+    display: table;
+}
+.card-item {
+    margin-bottom: 75px;
+    height: 200px;
+    padding: 0 20px;
+}
+
+.card-tag {
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.card-tag-Experiences{
+    background: #056ff4;
+}
+.card-tag-PASS{
+    background: #55ea91;
+}
+.card-tag-Event{
+    background: #f29100;
+}
+
+.border-row {
+    box-shadow: 0 3px 15px rgba(255, 255, 255, 0.16), 0 3px 15px rgba(146, 146, 146, 0.23);
+    display: inline-block;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 5px;
+}
+
+.card-title  {
+        padding: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-size: 27px;
+    height: 185px;
+}  
+
+
+    
+ .fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 2s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+
+.card-item-1 {
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+ }
+.card-item-2 {
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1s;
+ }
+ .card-item-3 {
+    -webkit-animation-delay: 4s; /* Safari 4.0 - 8.0 */
+    animation-delay: 4s;
+ }
+ .card-item-4 {
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-delay: 2s;
+ }
+ .card-item-5 {
+    -webkit-animation-delay: 5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 5s;
+ }

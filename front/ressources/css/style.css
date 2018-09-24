@@ -1,0 +1,27 @@
+@font-face { 
+    font-family:'mark';
+    src:url(../fonts/MarkPro-Light_ALt.eot);
+    src:url(../fonts/MarkPro-Light_ALt.eot) format("embedded-opentype"),url(../fonts/MarkPro-Light_ALt.woff) format("woff"),url(../fonts/MarkPro-Light_ALt.ttf) format("truetype");
+    font-weight:normal;
+}
+
+@font-face {
+    font-family:'mark';
+    src:url(../fonts/MarkPro-Medium_ALt.eot);
+    src:url(../fonts/MarkPro-Medium_ALt.eot) format("embedded-opentype"),url(../fonts/MarkPro-Medium_ALt.woff) format("woff"),url(../fonts/MarkPro-Medium_ALt.ttf) format("truetype");
+    font-weight:bold;
+}
+
+@font-face {
+    font-family:'mark';
+    src:url(../fonts/MarkPro-LightItalic.eot);
+    src:url(../fonts/MarkPro-LightItalic.eot) format("embedded-opentype"),url(../fonts/MarkPro-LightItalic.woff) format("woff"),url(../fonts/MarkPro-LightItalic.ttf) format("truetype");
+    font-style:italic;
+}
+
+
+@font-face{
+    font-family:'mark alt';
+    src:url(../fonts/MarkPro-Medium_ALt.otf);
+    src:url(../fonts/MarkPro-Medium_ALt.eot) format("embedded-opentype"),url(../fonts/MarkPro-Medium_ALt.woff) format("woff"),url(../fonts/MarkPro-Medium_ALt.ttf) format("truetype");
+}

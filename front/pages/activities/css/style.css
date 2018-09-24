@@ -1,0 +1,191 @@
+
+
+
+body, p {
+    font-family: 'mark' !important;
+    font-weight: bold !important;
+}
+
+.h2, h2 {
+    font-size: 35px;
+    font-weight: bold !important;
+        text-transform: uppercase;
+}
+
+.next-event h2, .upcoming-events h4 {
+    font-size: 35px;
+}
+
+.upcoming-events .col-md-12 {
+    border-bottom: 1px solid;
+    padding: 5px 0;
+}
+
+.col-md-12.header-upcoming {
+    border: 0;
+}
+
+.h3, h3 {
+    font-size: 30px;
+    font-weight: bold !important;
+        text-transform: uppercase;
+}
+h3.experience-time {
+  margin: 0;
+    font-size: 25px;
+    margin-bottom: 23px;
+}
+h3.experience-date {
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+h3.event-date {
+    font-size: 25px;
+     padding-left: 50px;
+    text-align: right;
+}
+.h4, h4 {
+    font-size: 30px;
+    font-weight: bold !important;
+        text-transform: uppercase;
+}
+h4.event-title {
+    font-size: 25px;
+}
+.h5, h5 {
+    font-size: 23px;
+    font-weight: bold !important;
+        text-transform: uppercase;
+}
+
+.h6, h6 {
+    font-size: 20px;
+    font-weight: bold !important;
+        text-transform: uppercase;
+}
+
+h5.experience-date {
+    font-size: 25px;
+}
+.next-experience .col-md-5 {
+    padding-right: 30px;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    padding: 0;
+}
+
+.col-md-9 {
+      padding-right: 25px;
+}
+
+.next-experience .experience-description, .next-event p {
+    margin-top: 15px;
+    font-size: 18px;
+    padding-right: 30px;
+}
+
+
+.vertical-experiences p, .vertical-events p  {
+    width: 1080px;
+    transform: rotate(-90deg);
+    float: left;
+    position: absolute;
+    height: 90px;
+    top: 487px;
+    left: -474px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.vertical-experiences {
+          position: relative;
+    width: 90px;
+    height: 1080px;
+    background: linear-gradient(261deg, rgb(29, 123, 236), rgb(0, 255, 255), rgb(255, 255, 0)) 100% 100% / 300% 300%;
+    animation: CustomAnimation 6s ease 0s infinite normal none running;
+
+}
+
+  @-webkit-keyframes CustomAnimation {
+        0%{background-position:0% 54%}
+        50%{background-position:100% 47%}
+        100%{background-position:0% 54%}
+    }
+    @-moz-keyframes CustomAnimation {
+        0%{background-position:0% 54%}
+        50%{background-position:100% 47%}
+        100%{background-position:0% 54%}
+    }
+    @keyframes CustomAnimation { 
+        0%{background-position:0% 54%}
+        50%{background-position:100% 47%}
+        100%{background-position:0% 54%}
+    }
+
+
+.vertical-events {
+    position: relative;
+    width: 90px;
+    height: 1080px;
+    background: linear-gradient(261deg,rgb(255, 255, 0) , rgb(0, 255, 255), rgb(29, 123, 236)) 100% 100% / 300% 300%;
+    animation: CustomAnimation 6s ease 0s infinite normal none running;
+}
+.header-upcoming {
+      margin-top: 75px;
+
+}
+.header-upcoming h4 {
+    margin-top: -17px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 20px;
+        margin-bottom: 0;
+
+
+}
+p.event-date {
+    font-size: 23px;
+    text-align: right;
+    padding-left: 35px;
+    margin-top: 10px;
+}
+p.event-description {
+    font-size: 18px;
+}
+
+.upcoming-experience-row .col-md-3 {
+    text-align: right;
+}
+
+.col-md-1.col-vertical {
+    width: 90px;
+}
+
+img.experience-picture {
+    width: 100%;
+        margin-top: 20px;
+}
+.col-md-12.upcoming-experience-row {
+    border-bottom: 1px solid;
+        padding: 20px 0;
+}
+.col-md-5.col-horizontal {
+    width: 865px;
+    padding: 25px;
+
+}
+
+.next-event img {
+      width: 100%;
+}
+.next-event p.event-description {
+    margin-top: 38px;
+    margin-bottom: 45px;
+}
+

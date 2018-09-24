@@ -1,0 +1,41 @@
+
+
+@media (max-width: 767px) { 
+
+    .title-container {
+        padding-bottom: 45px;
+    }
+  
+    .title-container h1 {
+        font-size: 40px;
+    }
+  
+    .middle-content {
+        position: initial;
+        transform: none;
+    }
+    
+    .form-container {
+        margin:0;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+     .title-container {
+        padding-bottom: 45px;
+    }
+    
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+    
+}
+
+
+
+@media (min-width: 1200px) {
+
+}

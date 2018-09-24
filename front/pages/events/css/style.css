@@ -1,0 +1,49 @@
+
+
+div.grid-element {
+    padding: 60px;
+}
+
+p#pageSubtitle1 {
+    line-height: normal;
+}
+
+div#list {
+    padding-left: 30px;
+}
+
+h1#pageTitle {
+    margin-top: -5px;
+    margin-bottom: 35px;
+}
+
+div#col-event-1 {
+    float: right;
+}
+
+div#col-event-2 {
+    float: left;
+}
+
+
+h1, h3, p {
+    font-family: 'mark' !important;
+}
+p {
+    font-size: 25px;
+    line-height: 22px;
+
+}
+
+
+h1 {
+    line-height: : 55px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.grid-element img {
+  box-shadow: 0 3px 15px rgba(0,0,0,0.16), 0 3px 15px rgba(0,0,0,0.23);
+}

@@ -1,0 +1,62 @@
+
+body.admin .tile-stats .icon {
+        display: none;
+}
+.admin-button-small {
+    padding: 5px 7px;
+    background: #2a3f54;
+    color: white;
+    border-radius: 4px;
+}
+.green-btn {
+    
+    background: #1abb44;
+}
+
+a.admin-button-small:hover {
+    color: #c9eef7;
+}
+@media (min-width: 768px) {
+     .left_col.scroll-view {
+         width: 250px;
+    }
+}
+
+.admin .nav.side-menu>li>a:hover {
+        background: #f7f7f7;
+    color: #2a3f54!important;
+}
+.admin .nav.side-menu>li>a.active{
+        background: #f7f7f7;
+    color: #2a3f54!important;
+}
+
+.admin .menu_section>ul {
+    margin-top: 27px;
+}
+
+.ride-details-column {
+    padding: 10px;
+}
+ 
+.ride-details-column .seat-block{
+        padding: 10px;
+        margin: 10px;
+        background: #f5f7fa;
+        border-radius: 5px;
+            min-height: 113px;
+}
+
+.profile_title {
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+a.unmatch-btn {
+    background: indianred !important;
+    color: white;
+}
+
+.admin-button-small {
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+img {
+    max-width: 1920px;
+    max-height: 1080px;
+    margin: 0 auto;
+}
+
+.carousel-control {
+        width: 150px;
+}
+
+.carousel-caption {
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    left: 0;
+    height: 120px;
+    bottom: 0;
+}
+
+ h3 {
+    font-size: 39px;
+    font-family: 'mark';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+body{
+    background: black;
+}
+
+span.glyphicon {
+    font-size: 55px !important;
+}
+
+span.glyphicon.glyphicon-chevron-left {
+    left: 35%;
+}

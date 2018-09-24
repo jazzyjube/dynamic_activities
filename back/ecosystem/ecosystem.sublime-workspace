@@ -1,0 +1,383 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"color"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"col",
+				"col-md-5"
+			],
+			[
+				"t",
+				"title\tAttr"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"gl",
+				"GLOBAL_DATA"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"ini",
+				"ini_set"
+			],
+			[
+				"dat",
+				"data"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"da",
+				"date"
+			],
+			[
+				"we",
+				"weekStart"
+			],
+			[
+				"date",
+				"dateField"
+			],
+			[
+				"wee",
+				"week_end"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"main",
+				"main-title"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"GLO",
+				"GLOBAL_DATA"
+			],
+			[
+				"incl",
+				"include"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"toda",
+				"todayDate"
+			],
+			[
+				"to",
+				"todayName"
+			],
+			[
+				"tod",
+				"todayParameter"
+			],
+			[
+				"page",
+				"pageTitle"
+			],
+			[
+				"lang",
+				"language"
+			],
+			[
+				"lan",
+				"language"
+			],
+			[
+				"getD",
+				"getDate"
+			],
+			[
+				"get",
+				"getDate"
+			],
+			[
+				"firs",
+				"first"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"mon",
+				"mondayInfo"
+			],
+			[
+				"m",
+				"mondayActivities"
+			],
+			[
+				"lu",
+				"Lieu"
+			],
+			[
+				"L",
+				"Lieu"
+			],
+			[
+				"mo",
+				"monday"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"res",
+				"result2"
+			],
+			[
+				"php",
+				"phpinfo"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/julienb/Downloads/FlipClock-master/examples/test.html",
+		"/Users/julienb/Downloads/Event thecamp.html",
+		"/private/var/folders/p2/7zpf51tj53v_c19bllhl6n34r8zysr/T/fz3temp-2/ecosystem.php",
+		"/Applications/MAMP/htdocs/dynamic_screens/squelette/squelette.php",
+		"/Applications/MAMP/htdocs/dynamic_screens/back/ecosystem/request/searchReservation.xml",
+		"/Applications/MAMP/htdocs/dynamic_screens/back/ecosystem/ecosystem.php",
+		"/Applications/MAMP/htdocs/dynamic_screens/front/pages/ecosystem/ecosystem.php",
+		"/Applications/MAMP/htdocs/dynamic_screens/front/ressources/css/style.css",
+		"/Applications/MAMP/htdocs/dynamic_screens/front/pages/ecosystem/css/style.css",
+		"/Applications/MAMP/htdocs/dynamic_screens/front/pages/tomorrow/tomorrow.php",
+		"/Applications/MAMP/htdocs/dynamic_screens/front/pages/tomorrow/css/style.css",
+		"/Applications/MAMP/htdocs/dynamic_screens/front/pages/tomorrow/js/custom.js",
+		"/Applications/MAMP/htdocs/dynamic_screens/back/tomorrow/tomorrow.php",
+		"/Applications/MAMP/htdocs/dynamic_screens/back/tomorrow/databases/activities.php",
+		"/Applications/MAMP/htdocs/dynamic_screens/back/ecosystem/databases/activities.php",
+		"/Applications/MAMP/htdocs/dynamic_screens/front/pages/recreationlab/recreationlab.php",
+		"/Applications/MAMP/htdocs/dynamic_screens/back/recreationlab/recreationlab.php",
+		"/Applications/MAMP/htdocs/dynamic_screens/back/tomorrow/databases/events.php",
+		"/Applications/MAMP/htdocs/dynamic_screens/back/tomorrow/databases/pass.php",
+		"/Applications/MAMP/htdocs/dynamic_screens/index.php",
+		"/Applications/MAMP/htdocs/dynamic_screens/data/common.php",
+		"/Applications/MAMP/htdocs/dynamic_screens/back/ecosystem/ecosystem2.php",
+		"/Applications/MAMP/htdocs/dynamic_activities/style.css",
+		"/Applications/MAMP/htdocs/dynamic_activities/index.html",
+		"/Users/julienb/Desktop/AFRAME/aframe.html",
+		"/Applications/MAMP/htdocs/expbox/index.html",
+		"/Applications/MAMP/htdocs/expbox/js/custom.js",
+		"/Applications/MAMP/bin/php/php7.1.8/conf/php.ini",
+		"/Users/julienb/Desktop/aframe.html",
+		"/Users/julienb/Downloads/exported.json",
+		"/Users/julienb/Desktop/untitled.html"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ecosystem.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 309.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
