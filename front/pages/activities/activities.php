@@ -2,7 +2,6 @@
 <link rel="stylesheet" href="<?php echo $FRONT_PAGES_URL."/".$GLOBAL_PAGE."/"?>css/style.css">
 
 
-
 <?php if(!empty($GLOBAL_DATA["experiences"])): ?>
 	<div class="col-md-1 col-vertical" >
 		<div class="vertical-experiences">
@@ -13,7 +12,7 @@
 
 	</div>
 
-	<div class="<?php if(!empty($GLOBAL_DATA["events"])) echo "col-md-5"; else echo "col-md-11"; ?> col-horizontal" >	
+	<div class="<?php if(!empty($GLOBAL_DATA["events"])) echo "col-md-5"; else echo "col-md-11"; ?> col-horizontal" >
 
 		<?php if($GLOBAL_DATA["experiences"][0]): ?>
 
@@ -23,9 +22,9 @@
 						<h3 class="experience-date">
 							<?php if ($today == $GLOBAL_DATA["experiences"][0]["date"]):?>
 				                <?= $todayLabel ?>
-				              <?php else:?>	
+				              <?php else:?>
 				              	<?= $GLOBAL_DATA["experiences"][0]["date"] ?>
-				              <?php endif; ?>	
+				              <?php endif; ?>
 						</h3>
 						<h3 class="experience-time"><?= $GLOBAL_DATA["experiences"][0]["time"] ?></h3>
 						<p class="experience-description"><?= $GLOBAL_DATA["experiences"][0]["description"] ?></p>
@@ -35,7 +34,9 @@
 					<img class="experience-picture" src="<?php echo $GLOBAL_DATA["experiences"][0]["picture"] ?>">
 				</div>
 			</div>
-			<?php unset($GLOBAL_DATA["experiences"][0]); ?>
+			<?php
+			$GLOBAL_FIRST_EXPERIENCES = $GLOBAL_DATA["experiences"][0];
+			unset($GLOBAL_DATA["experiences"][0]); ?>
 	  	<?php endif; ?>
 		<?php if($GLOBAL_DATA["experiences"][1]): ?>
 			<div class="col-md-12 header-upcoming" >
@@ -57,7 +58,7 @@
 			</div>
 
 	     <?php endforeach; ?>
-		
+
 
 	</div>
 
@@ -66,7 +67,7 @@
 
 <?php if(!empty($GLOBAL_DATA["events"])): ?>
 
-	<div class="col-md-1 col-vertical" >	
+	<div class="col-md-1 col-vertical" >
 		<div class="vertical-events">
 			<p>
 				<?= $vertical_text2 ?>
@@ -74,7 +75,7 @@
 		</div>
 	</div>
 
-	<div class="<?php if(!empty($GLOBAL_DATA["experiences"])) echo "col-md-5"; else echo "col-md-11"; ?> col-horizontal" >
+	<div class="<?php if(!empty($GLOBAL_FIRST_EXPERIENCES)) echo "col-md-5"; else echo "col-md-11"; ?> col-horizontal" >
 
 		<?php if($GLOBAL_DATA["events"][0]): ?>
 
@@ -103,7 +104,7 @@
 		<?php endif; ?>
 
 		<div class="upcoming-events">
-				
+
 			<?php foreach($GLOBAL_DATA["events"] as $data): ?>
 
 					<div class="col-md-12" >
@@ -115,13 +116,12 @@
 							<p class="event-date"><?= $data->event_date_range ?></p>
 						</div>
 					</div>
-					
+
 		     <?php endforeach; ?>
 		</div>
 
-			
-			
+
+
 	</div>
 
 <?php endif; ?>
-

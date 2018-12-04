@@ -22,7 +22,6 @@ span.flip-clock-label {
 .logo {
   width: 450px;
     margin-bottom: 80px;
-    margin-top: 30px;
 }
 
 .flip-clock-wrapper ul li a div div.inn {
@@ -74,4 +73,10 @@ span.flip-clock-label {
   margin: 0 auto;
 }
 
+.jconfirm-row {
+  color: black !important;
+}
 
+.jconfirm.jconfirm-white .jconfirm-box .jconfirm-buttons, .jconfirm.jconfirm-light .jconfirm-box .jconfirm-buttons{
+  float: none !important;
+}
