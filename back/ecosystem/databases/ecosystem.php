@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 use \TANIOS\Airtable\Airtable;
 
-//GET DATA - Activities 
+//GET DATA - Activities
 $airtable = new Airtable(array(
     'api_key' => 'key0LItg2WigNuuwe',
     'base'    => 'apptyvV2tZRsLO6Mn'
@@ -10,13 +10,14 @@ $airtable = new Airtable(array(
 
 //Airtable base specific fields
 $tableName = "Groups";
+$currentWeekName = "CurrentWeek";
 $titleField = "Name";
 $dateField = "Date";
 
-//Date request 
+//Date request
 $date_request = date('m-d-Y', strtotime('monday this week'));
 
-//Date for today badge 
+//Date for today badge
 $today = date('Y-m-d', strtotime('today'));
 
 $weekStart = date('d.m.Y', strtotime('monday this week'));
@@ -30,7 +31,7 @@ $GLOBAL_DATE = array(
 
 
 $params = array(
-    "filterByFormula" => "OR(IS_SAME({".$dateField."}, '".$date_request."' , 'day'), IS_AFTER({".$dateField."}, '".$date_request."' , 'day'))",
+    "filterByFormula" => "{".$currentWeekName."} = 1",
     "fields" => array ($titleField, $dateField),
     "view" => "Grid view",
     "sort" => array (array ("field" => $dateField))
@@ -49,7 +50,7 @@ if (!empty($response) && !empty($response[ 'records' ])) {
 		$found = 0;
 
 		if (!empty($title)) {
-			
+
 			foreach ($GLOBAL_DATA as $key => $data) {
 				if($data["title"] == $title){
 					array_push($data["date"], $date);
@@ -69,4 +70,8 @@ if (!empty($response) && !empty($response[ 'records' ])) {
 
 	}
 
+}
+//Redirect to outthere view if no data
+if (empty($GLOBAL_DATA)){
+    header('Location: '. $GENERAL_PAGE_URL."outthere"); 
 }
